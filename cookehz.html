@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<script src="assets/jquery-1.12.4.min.js"></script>
+		<script src="assets/getCookie.js"></script>
+		<script>
+			$(document).ready(function(){
+				$("#cookiediv").on('click', function() {
+					document.cookie = "greenlight=true";
+					window.location = "index.html";
+				});
+			});
+		</script>
 		<link rel="stylesheet" type="text/css" href="assets/stylesheet.css">
 	</head>
 	<body>
 		<div id="cookie">
 			<span class="title">Hello! First off, thank you for visiting my personal website, it means a lot to me.<br>Second, my site uses cookies and has some <em>secrets</em> hidden in it, so feel free to look for 'em.</span>
 		</div>
-		<div id="cookieaccept"><table align="center" height="50px"><tr><td valign="middle"><span class="nav">Alright</span></td></tr></table></div>
+		<div id="cookiediv"><table align="center" height="50px"><tr><td valign="middle"><span id="cookietxt"><strong>Alright</strong></span></td></tr></table></div>
 	</body>
 </html>

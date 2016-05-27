@@ -1,10 +1,29 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<!-- "You think you're a retard? I was born in it, molded by it. I didn't see Tumblr until I was an adult." -Bane -->
 		<script src="assets/jquery-1.12.4.min.js"></script>
+		<script src="assets/secret.js"></script>
+		<script src="assets/getCookie.js"></script>
+		<script>
+			var x = getCookie("greenlight");
+			if (x == "") {
+				window.location = "cookehz.html";
+			}
+		</script>
 		<link rel="stylesheet" type="text/css" href="assets/stylesheet.css">
 		<title>TEST!</title>
 	</head>
 	<body>
+		<div class="navbar">
+			<table style="width:100%; height:65px;"><tr>
+    			<td><span class="title"><span id="secret"></span><span id="notsecret">TEHAWESOMESTKITTEH</span></span></td>
+    			<td><span class="nav">HOME</span></td> 
+    			<td><span class="nav">ABOUT</span></td>
+    			<td><span class="nav">PROJECTS and CREATIONS</span></td>
+    			<td><span class="nav">CONTACT ME</span></td>
+  			</tr></table>
+		</div>
+		<div id="contentbox">TEST<br>TEST<br>TEST<br>TEST<br>TEST<br>TEST<br>TEST<br>TEST<br>TEST<br>TEST<br>TEST<br>TEST<br>TEST<br>TEST<br>TEST<br>TEST<br>TEST<br>TEST<br>TEST<br>TEST<br>TEST<br>TEST<br>TEST<br>TEST<br>TEST<br>TEST<br>TEST<br>TEST<br>TEST<br>TEST<br>TEST<br>TEST<br>TEST<br>TEST<br>TEST<br>TEST<br>TEST<br></div>
 	</body>
 </html>

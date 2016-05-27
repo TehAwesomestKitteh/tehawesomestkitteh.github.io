@@ -1,3 +1,94 @@
+@font-face {
+    font-family: "Basic Title";
+    src: url('basictitlefont.woff2') format('woff2'),
+    	 url('basictitlefont.woff') format('woff'),
+    	 url('basictitlefont.eot') format('eot'),
+    	 url('basictitlefont.ttf') format('truetype');
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #808080;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #404040;
+}
+
 body {
 	margin: 0 0 0 0;
+	background-color: #262626;
+	color: white;
+}
+
+td {
+	padding: 0 5px 0 5px;
+}
+
+#contentbox {
+	background-color: #4d4d4d;
+	width: 80%;
+	margin-top: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 50px;
+}
+
+#cookie {
+	text-align: center;
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+#cookiediv {
+	width: 150px; 
+	height: 50px; 
+	margin-left: auto; 
+	margin-right: auto; 
+	margin-bottom: 20px; 
+	margin-top: 20px; 
+	vertical-align: middle;
+	border: 3px solid white;
+	background-color: #262626;
+	color: #ffffff;
+	transition: color 0.5s, border 0.5s, background-color 0.5s;
+}
+
+#cookiediv:hover {
+	border: 3px solid #262626;
+	background-color: #ffffff;
+	color: #262626;
+}
+
+#cookietxt {
+	font: 32px "Basic Title", Arial, sans-serif;
+	cursor: default;
+}
+
+#secret {
+	-webkit-transition: text-shadow 1s;
+	transition: text-shadow 1s;
+	color: #66d9ef;
+}
+
+.title {
+	font: 65px "Basic Title", Arial, sans-serif;
+}
+
+.nav {
+	font: 32px "Basic Title", Arial, sans-serif;
+}
+
+.navbar {
+	padding: 10px 10px 0px 10px;
+	background-color: #262626;
+	height: 70px;
+	text-align: center;
+	position: fixed;
 }
