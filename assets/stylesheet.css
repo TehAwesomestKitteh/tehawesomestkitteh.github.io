@@ -18,14 +18,31 @@
 	background-color: #404040;
 }
 
+a {
+	text-decoration: none;
+}
+
 body {
 	margin: 0 0 0 0;
 	background-color: #262626;
 	color: white;
 }
 
+li {
+	float: left;
+	height: 50px;
+}
+
 td {
 	padding: 0 5px 0 5px;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+	margin: 0 0 0 0;
+	float: left;
+	width: 100%;
 }
 
 #contentbox {
@@ -76,16 +93,48 @@ td {
 
 .title {
 	font: 65px "Basic Title", Arial, sans-serif;
+	cursor: default;
+	padding-top: 10px;
 }
 
 .nav {
 	font: 32px "Basic Title", Arial, sans-serif;
+	cursor: pointer;
+	color: #808080;
 }
 
 .navbar {
-	padding: 10px 10px 0px 10px;
+	padding: 0px 1% 0px 1%;
 	background-color: #262626;
-	height: 70px;
+	height: 75px;
+	width: 98%;
 	text-align: center;
+	vertical-align: middle;
 	position: fixed;
+}
+
+.navbarlink {
+	padding-top: 25px;
+	padding-left: 10px;
+	padding-right: 10px;
+	cursor: pointer;
+	display: inline-block;
+	color: #ffffff;
+	background-color: #262626;
+	transition: color 0.25s, background-color 0.25s;
+}
+
+.navbarlink:hover {
+	color: #262626;
+	background-color: #ffffff;
+}
+
+.navbarlink:active {
+	color: #ffffff;
+	background-color: #0d0d0d;
+}
+
+.active {
+	color: #ffffff;
+	background-color: #0d0d0d;
 }
