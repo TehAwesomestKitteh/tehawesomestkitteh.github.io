@@ -1,9 +1,17 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<!-- OneShot and its assets belongs to its respective owners. 
+		I don't own anything here (except for the HTML and CSS documents here)-->
+		<link rel="stylesheet" href="assets/equinox.css">
+		<audio autoplay loop preload="auto"><source src="assets/countdown.ogg" type="audio/ogg"></audio>
 		<title>OneShot - Equinox Countdown</title>
 	</head>
 	<body>
-		<iframe width="400" height="250" src="http://itsalmo.st/#theequinox_hnpp4:embed" scrolling="no" frameborder="0" style="border: 1px solid #dbd8d7"></iframe>
+		<img src="assets/equinox_bg.png" id="eqbg">
+		<div class="cd"><img id="days_hundreds"><img id="days_tens"><img id="days"><img id="days_line"><img id="hrs_tens"><img id="hrs"><img id="hrs_line"><img id="mins_tens"><img id="mins"><img id="mins_line"><img id="secs_tens"><img id="secs"></div>
+
+		<strong>Note:</strong> Setting your system's clock to reach Equinox is useless here. This page functions as a basic, online countdown to the actual Spring Equinox. Though your effort in changing your clock is commendable, try not to as you may confuse yourself.
+		<script type="text/javascript" src="assets/equinox.js"></script>
 	</body>
 </html>
