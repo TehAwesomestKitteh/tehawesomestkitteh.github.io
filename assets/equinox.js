@@ -121,7 +121,7 @@ function update() {
       case 0:
           document.getElementById("days").src = "assets/0.gif";
     };
-    document.getElementById("days_line").src = "assets/_active.gif";
+    document.getElementById("days_line").src = "assets/active.gif";
   };
 
   // Hrs img setter
@@ -188,7 +188,7 @@ function update() {
       case 0:
           document.getElementById("hrs").src = "assets/0.gif";
     };
-    document.getElementById("hrs_line").src = "assets/_active.gif";
+    document.getElementById("hrs_line").src = "assets/active.gif";
   };
 
   // Mins img setter
@@ -255,7 +255,7 @@ function update() {
       case 0:
           document.getElementById("mins").src = "assets/0.gif";
     };
-    document.getElementById("mins_line").src = "assets/_active.gif";
+    document.getElementById("mins_line").src = "assets/active.gif";
   };
 
   // Secs img setter
