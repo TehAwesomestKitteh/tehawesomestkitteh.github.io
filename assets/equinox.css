@@ -1,0 +1,24 @@
+@font-face {
+	font-family: "TerminusOS";
+	src: url("Terminus_OneShot.ttf") format('truetype');
+}
+
+body {
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-family: "TerminusOS";
+}
+
+.cd {
+	position: relative;
+	top: -322px;
+	margin: 0 auto auto;
+	width: 384px;
+}
+
+#eqbg {
+	display: block;
+    margin: auto;
+    width: 768px;
+}
