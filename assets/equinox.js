@@ -49,7 +49,6 @@ function update() {
   if (getTimeRemaining(deadline).seconds > 0) {
     document.getElementById("secs_tens").src = "assets/" + String(secs_tens) + ".gif";
     document.getElementById("secs").src = "assets/" + String(secs) + ".gif";
-    document.getElementById("secs_line").src = "assets/active.gif";
   };
   
   // Handles tick-tock
