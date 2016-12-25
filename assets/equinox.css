@@ -10,7 +10,7 @@ body {
 	font-family: "TerminusOS";
 }
 
-.cd {
+#cd {
 	position: relative;
 	top: -322px;
 	margin: 0 auto auto;
