@@ -51,6 +51,10 @@ function update() {
     document.getElementById("secs").src = "assets/" + String(secs) + ".gif";
   };
   
+  // Removes door when time is up
+  if (getTimeRemaining(deadline).total <= 0) {
+    document.getElementById("locked").src = "";
+  };
   // Handles tick-tock
   var tick = new Audio('assets/tick.wav');
   var tock = new Audio('assets/tock.wav');
