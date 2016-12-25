@@ -28,15 +28,15 @@ function update() {
 
   // Thanks to Asu for finding a more efficient code -w-
   if (getTimeRemaining(deadline).days > 0) {
-    document.getElementById("days_hundreds").src = "assets/" + string(days_hundreds) + ".gif";
-    document.getElementById("days_tens").src = "assets/" + string(days_tens) + ".gif";
-    document.getElementById("days").src = "assets/" + string(days) + ".gif";
-    document.getElementById("hrs_tens").src = "assets/" + string(hrs_tens) + ".gif";
-    document.getElementById("hrs").src = "assets/" + string(hrs) + ".gif";
-    document.getElementById("mins_tens").src = "assets/" + string(mins_tens) + ".gif";
-    document.getElementById("mins").src = "assets/" + string(mins) + ".gif";
-    document.getElementById("secs_tens").src = "assets/" + string(secs_tens) + ".gif";
-    document.getElementById("secs").src = "assets/" + string(secs) + ".gif";
+    document.getElementById("days_hundreds").src = "assets/" + String(days_hundreds) + ".gif";
+    document.getElementById("days_tens").src = "assets/" + String(days_tens) + ".gif";
+    document.getElementById("days").src = "assets/" + String(days) + ".gif";
+    document.getElementById("hrs_tens").src = "assets/" + String(hrs_tens) + ".gif";
+    document.getElementById("hrs").src = "assets/" + String(hrs) + ".gif";
+    document.getElementById("mins_tens").src = "assets/" + String(mins_tens) + ".gif";
+    document.getElementById("mins").src = "assets/" + String(mins) + ".gif";
+    document.getElementById("secs_tens").src = "assets/" + String(secs_tens) + ".gif";
+    document.getElementById("secs").src = "assets/" + String(secs) + ".gif";
   };
   
   // Handles tick-tock
