@@ -22,3 +22,8 @@ body {
     margin: auto;
     width: 768px;
 }
+
+#locked {
+	position: relative;
+	top: -343px;
+}
