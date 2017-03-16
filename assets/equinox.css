@@ -10,15 +10,31 @@ body {
 	font-family: "TerminusOS";
 }
 
-.cd {
+#cd {
+	width: 384px;
+	height: 82px;
 	position: relative;
 	top: -322px;
 	margin: 0 auto auto;
-	width: 384px;
 }
 
 #eqbg {
+    width: 768px;
 	display: block;
     margin: auto;
-    width: 768px;
+}
+
+#locked {
+	width: 128px;
+	height: 96px;
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+	display: block;
+	top: -306px;
+}
+
+#text {
+	position: relative;
+	top: -100px;
 }
