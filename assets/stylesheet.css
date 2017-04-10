@@ -35,6 +35,24 @@ body {
 
 a {
 	text-decoration: none;
+	color: #66d9ef;
+}
+
+a:link {
+	text-decoration: none;
+	color: #66d9ef;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #56c9df;
+}
+
+a:hover {
+    text-decoration: underline;
+	color: #56c9df;
+    -webkit-transition: color 0.25s;
+    transition: color 0.25s;
 }
 
 p {
