@@ -11,8 +11,8 @@
 				// window.location = "cookehz.html";
 			}
 		</script>
-		<link rel="stylesheet" type="text/css" href="assets/stylesheet.css">
-		<title>TEST!</title>
+		<?php if (!isset($css_name)) {echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"assets/stylesheet.css\">";} else {echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"assets/".$css_name.".css\">";} ?>
+		<title><?php if (!isset($page_title)) {echo "TehAwesomestKitteh";} else {echo $page_title." | TehAwesomestKitteh";} ?></title>
 	</head>
 	<body>
 		<div class="navbar">
@@ -25,11 +25,3 @@
     		</ul>
 		</div>
 		<div id="contentbox">
-
-			<img src="Order/1a.gif">
-			<p class="storyp">...</p>
-			<br>
-			<div id="nextpage"><a href="Order/2">>></a></div>
-		</div>
-	</body>
-</html>
